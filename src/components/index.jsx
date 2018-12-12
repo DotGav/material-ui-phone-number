@@ -782,6 +782,7 @@ class MaterialUiPhoneNumber extends React.Component {
         onBlur={this.handleInputBlur}
         onKeyDown={this.handleInputKeyDown}
         type="tel"
+        variant="outlined"
         InputProps={{
           ...dropdownProps,
           ...inputProps,
